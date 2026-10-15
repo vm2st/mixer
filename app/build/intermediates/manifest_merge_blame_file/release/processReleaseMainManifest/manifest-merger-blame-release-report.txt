@@ -1,0 +1,169 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.vm2st.mixer"
+4    android:versionCode="8"
+5    android:versionName="1.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <queries>
+11-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:4:5-12:15
+12        <intent>
+12-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:5:9-7:18
+13            <action android:name="android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL" />
+13-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:6:13-94
+13-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:6:21-91
+14        </intent>
+15
+16        <package android:name="com.android.musicfx" />
+16-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:8:9-55
+16-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:8:18-52
+17        <package android:name="com.sec.android.app.soundalive" />
+17-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:9:9-66
+17-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:9:18-63
+18        <package android:name="com.dolby.daxappUI" />
+18-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:10:9-54
+18-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:10:18-51
+19        <package android:name="com.android.settings" />
+19-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:11:9-56
+19-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:11:18-53
+20    </queries>
+21
+22    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+22-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:14:5-80
+22-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:14:22-77
+23    <uses-permission android:name="android.permission.VIBRATE" />
+23-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:15:5-66
+23-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:15:22-63
+24
+25    <uses-feature
+25-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:17:5-19:36
+26        android:name="android.hardware.audio.output"
+26-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:18:9-53
+27        android:required="false" />
+27-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:19:9-33
+28
+29    <permission
+29-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+30        android:name="com.vm2st.mixer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+30-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+31        android:protectionLevel="signature" />
+31-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+32
+33    <uses-permission android:name="com.vm2st.mixer.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+33-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+33-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+34
+35    <application
+35-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:21:5-41:19
+36        android:allowBackup="true"
+36-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:22:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.13.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\13e9fb277ffa55e2efebcc807dbc59f8\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+38        android:extractNativeLibs="false"
+39        android:icon="@mipmap/ic_launcher"
+39-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:23:9-43
+40        android:label="@string/app_name"
+40-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:24:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:25:9-54
+42        android:supportsRtl="true"
+42-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:26:9-35
+43        android:theme="@style/Theme.VMixer" >
+43-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:27:9-44
+44        <activity
+44-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:29:9-40:20
+45            android:name="com.vm2st.mixer.MainActivity"
+45-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:30:13-41
+46            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden|uiMode"
+46-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:31:13-94
+47            android:exported="true"
+47-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:32:13-36
+48            android:launchMode="singleTop"
+48-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:33:13-43
+49            android:screenOrientation="portrait"
+49-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:34:13-49
+50            android:theme="@style/Theme.VMixer" >
+50-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:35:13-48
+51            <intent-filter>
+51-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:36:13-39:29
+52                <action android:name="android.intent.action.MAIN" />
+52-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:37:17-69
+52-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:37:25-66
+53
+54                <category android:name="android.intent.category.LAUNCHER" />
+54-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:38:17-77
+54-->C:\Users\vikto\AndroidStudioProjects\VMixer\app\src\main\AndroidManifest.xml:38:27-74
+55            </intent-filter>
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.vm2st.mixer.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.3.0] C:\Users\vikto\.gradle\caches\8.11.1\transforms\bd6f95dcd6c1f117cf0bf309e8404f93\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\vikto\.gradle\caches\8.11.1\transforms\827890458e7205a872658023ca1cc1c7\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:29:13-31:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\vikto\.gradle\caches\8.11.1\transforms\827890458e7205a872658023ca1cc1c7\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:30:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.8.7] C:\Users\vikto\.gradle\caches\8.11.1\transforms\827890458e7205a872658023ca1cc1c7\transformed\lifecycle-process-2.8.7\AndroidManifest.xml:31:17-49
+68            <meta-data
+68-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+69                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+69-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+70                android:value="androidx.startup" />
+70-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+71        </provider>
+72
+73        <receiver
+73-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+74            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+74-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+75            android:directBootAware="false"
+75-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+76            android:enabled="true"
+76-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+77            android:exported="true"
+77-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+78            android:permission="android.permission.DUMP" >
+78-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+79            <intent-filter>
+79-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+80                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+80-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+81            </intent-filter>
+82            <intent-filter>
+82-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+83                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+83-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+84            </intent-filter>
+85            <intent-filter>
+85-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+86                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+86-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+87            </intent-filter>
+88            <intent-filter>
+88-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+89                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+89-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\vikto\.gradle\caches\8.11.1\transforms\830f0c7dbd62bb48e2c695b73893428f\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+90            </intent-filter>
+91        </receiver>
+92    </application>
+93
+94</manifest>

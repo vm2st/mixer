@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_bg">#FF892929</color>
+    <color name="vmixer_window_bg">#FF0B0B0C</color>
+    <string name="app_name">VMixer</string>
+    <style name="Theme.VMixer" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/vmixer_window_bg</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

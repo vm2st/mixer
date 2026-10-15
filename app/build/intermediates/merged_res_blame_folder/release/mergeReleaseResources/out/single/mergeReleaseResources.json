@@ -1,0 +1,62 @@
+[
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/raw_fx_zap.wav.flat",
+        "source": "com.vm2st.mixer.app-main-44:/raw/fx_zap.wav"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-xxhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-xxhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/raw_fx_clap.wav.flat",
+        "source": "com.vm2st.mixer.app-main-44:/raw/fx_clap.wav"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/raw_fx_kick.wav.flat",
+        "source": "com.vm2st.mixer.app-main-44:/raw/fx_kick.wav"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-xhdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-xhdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-mdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-mdpi/ic_launcher_monochrome.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/raw_silence.wav.flat",
+        "source": "com.vm2st.mixer.app-main-44:/raw/silence.wav"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/raw_fx_riser.wav.flat",
+        "source": "com.vm2st.mixer.app-main-44:/raw/fx_riser.wav"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.vm2st.mixer.app-release-43:/mipmap-hdpi_ic_launcher_monochrome.png.flat",
+        "source": "com.vm2st.mixer.app-main-44:/mipmap-hdpi/ic_launcher_monochrome.png"
+    }
+]
